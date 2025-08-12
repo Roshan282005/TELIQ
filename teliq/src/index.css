@@ -1,0 +1,122 @@
+body {
+    background-color: hsla(0, 0%, 0%, 0.863);
+    color: hsla(0, 0%, 100%, 0.655);
+    margin: 0%;
+    padding: 0%;
+}
+.ham-menu:hover{
+  background: linear-gradient(45deg, hsla(0, 0%, 41%, 0.279));
+  border-radius: 5px;
+  
+}
+.ham-menu {
+  padding: 0px;  
+  height: 20px;
+  width: 25px;
+  position: fixed;
+  top: 85px;
+  left: 15px;
+}
+.ham-menu span:hover{
+  color: white;
+  background-color: hsla(0, 0%, 75%, 0.833);
+}
+.ham-menu span {
+  cursor: pointer;
+  height: 1.5px;
+  width: 80%;
+  background-color: hsla(0, 0%, 75%, 0.833);
+  border-radius: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 1ms ease;
+}
+.ham-menu span:nth-child(1) {
+  top: 25%;
+}
+.ham-menu span:nth-child(2) {
+  top: 50%;
+}
+.ham-menu span:nth-child(3) {
+  top: 75%;
+}
+.ham-menu.active span {
+  background-color: black;
+  
+}
+.ham-menu.active span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.fa.fa-comment {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 135px;
+    left: 20px;
+    color: hsla(129, 10%, 86%, 0.559);
+}
+.comment:hover{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 127px;
+    left: 8.5px;
+    background-color: hsla(0, 0%, 41%, 0.279);
+    border-radius: 5px;
+    transition: 0.5s ease;
+    
+}
+
+.fab.fa-whatsapp {
+    font-size: 2rem;
+     width: 30px;
+    height: 35px;
+    size: 20px;
+    color: hsla(129, 100%, 64%, 0.824);
+}
+.navBar {
+    cursor: pointer;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    left: 8px;
+    top: 75px;
+}
+.navBar:hover {
+    background-color: hsla(0, 0%, 41%, 0.279);
+    border-radius: 5px;
+    transition: 0.5s ease;
+
+}
+.h1 {
+    color: hsla(140, 100%, 99%, 0.747);
+    font-size: 1.4rem;
+    margin: 8px;
+    margin-left: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.innerContainer {
+    background-color: hsla(0, 0%, 22%, 0.932);
+    padding-top: 5px;
+    padding-left: 25px;
+    margin-left: 55px;
+    border-radius: 8px;
+}
+h2 {
+    color: hsla(100, 10%, 94%, 0.769);
+    font-size: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+}
