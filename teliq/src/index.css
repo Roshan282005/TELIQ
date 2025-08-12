@@ -57,28 +57,50 @@ body {
   top: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
 }
-.fa.fa-comment {
-    font-size: 1.5rem;
+
+.comment {
+    position: fixed;
+    top: 127px;
+    left: 8.5px;
     width: 40px;
     height: 40px;
-    position: fixed;
-    top: 135px;
-    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+.comment:hover {
+    cursor: pointer;
+    background-color: hsla(0, 0%, 41%, 0.279);
+}
+.chat-icon {
     color: hsla(129, 10%, 86%, 0.559);
 }
-.comment:hover{
+
+
+
+.phone:hover{
     cursor: pointer;
     width: 40px;
     height: 40px;
     position: fixed;
-    top: 127px;
-    left: 8.5px;
+    top: 185px;
+    left: 8px;
     background-color: hsla(0, 0%, 41%, 0.279);
     border-radius: 5px;
     transition: 0.5s ease;
-    
 }
-
+.fa.fa-phone{
+  transform: rotate(90deg);
+  font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 195px;
+    left: 0px;
+    color: hsla(129, 10%, 86%, 0.559);
+}
 .fab.fa-whatsapp {
     font-size: 2rem;
      width: 30px;
