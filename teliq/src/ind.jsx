@@ -13,6 +13,14 @@ function inn(){
           </svg>   
         </div>
         <div className="phone"><i className="fa fa-phone"></i></div>
+        <div className="status">
+        <div className="status-icon">
+          <div className="camera">
+            <div className="lens"></div>
+          </div>
+           <div className="green-dot"></div>
+        </div>
+        </div>
         <div className="container">
         <h1 className="h1"><i className="fab fa-whatsapp"></i>𐌕𐌄𐌋𐌉𐌒
         </h1>
